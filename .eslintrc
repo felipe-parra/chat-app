@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["warn", "single"],
+    "semi": "off",
+    "no-extra-semi": "error",
+    "camelcase": "off",
+    "eqeqeq": "warn",
+    "space-before-function-paren": "off",
+    "spaced-comment": "warn",
+    "semi-spacing": "warn",
+    "keyword-spacing": "warn",
+    "block-spacing": "error",
+    "react/prop-tyes": 0,
+    "react/display-name": 0,
+    "prettier/prettier": "error"
+  }
+}
